@@ -1,0 +1,7 @@
+dist: focal
+language: shell
+script:
+  - echo 'Testing'
+  - echo "TRAVIS_JOB_RESTARTED=$TRAVIS_JOB_RESTARTED"
+  - echo "TRAVIS_JOB_RESTARTED_BY=$TRAVIS_JOB_RESTARTED_BY"
+install: skip
